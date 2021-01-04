@@ -35,7 +35,7 @@ jobs:
 
     # <insert integration tests needing secrets>
     - run: |
-	echo ${{ secrets.HELLO }}
+        echo ${{ secrets.HELLO }}
     - run: |
         echo "Integration tests... success! ;-)"
 
